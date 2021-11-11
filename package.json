@@ -1,0 +1,28 @@
+{
+  "name": "generate-docs",
+  "version": "1.0.0",
+  "description": "vue组件文档生成",
+  "main": "src/utils/generate-docs/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Echo-mz/generate-docs"
+  },
+  "homepage": "https://github.com/Echo-mz/generate-docs",
+  "scripts": {
+    "dev":"node src/utils/generate-docs/index.js"
+  },
+  "keywords": [
+    "template",
+    "docs",
+    "vue docs"
+  ],
+  "author": "ml",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.14.8",
+    "@babel/parser": "^7.14.8",
+    "@babel/traverse": "^7.14.8",
+    "@babel/types": "^7.14.8",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
