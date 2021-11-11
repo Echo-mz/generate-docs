@@ -144,6 +144,11 @@
   "resolved" "https://registry.nlark.com/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz"
   "version" "1.0.5"
 
+"generate-modal-docs@^1.0.0":
+  "integrity" "sha512-0uRdloHrGJKXTu+acpyq9EXRT6hRFXawCMVzDIJUaEuSdbYlX5Chq5YpgVsi0Q6c6v4zqVqu9jNODqpQNce6bg=="
+  "resolved" "https://registry.npmjs.org/generate-modal-docs/-/generate-modal-docs-1.0.0.tgz"
+  "version" "1.0.0"
+
 "generate-vue-docs@^1.0.3":
   "integrity" "sha512-izr9K2exGwbc9euFu/yroG/ASFhDGKr8GHZvfrMKX5cjx7mazm4Y4ibhQoachLBgNEGsIpIDbYHEeJqDctsVZg=="
   "resolved" "https://registry.npmjs.org/generate-vue-docs/-/generate-vue-docs-1.0.3.tgz"

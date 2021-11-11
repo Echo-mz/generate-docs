@@ -12,9 +12,9 @@ const config = {
         methods: { name: '方法名', desc: '说明', params: '参数', res: '返回值' }
     }
 }
-
+// ######修改vueTodocs路径########
 const findFileName = path.resolve(__dirname, '../../src')//当前文件夹的名字
- 
+
 
 function doGenerate(filePath, fileSrc, a) {
     let vueStr = '',
@@ -30,6 +30,7 @@ function doGenerate(filePath, fileSrc, a) {
             });
         });
     }
+    // ######写入文件函数执行回调########
     const backfuntion = (err) => {
         if (err) console.error(err);
         console.info("write success");
@@ -44,7 +45,7 @@ function doGenerate(filePath, fileSrc, a) {
                         vueStr = fs.readFileSync(path.resolve(filePath + '/', item), 'utf8')
                         let content = parseDocs(vueStr, config)
                         if (fileSrc) baseSrc = fileSrc
-                        let writeFilePath = path.resolve(findFileName,'../') + '/docsFile/' + baseSrc + '/'
+                        let writeFilePath = path.resolve(findFileName, '../') + '/docsFile/' + baseSrc + '/'
                         writeFileRecursive(`${writeFilePath}${dirName}.md`, content, backfuntion)
                     }
                 } else {

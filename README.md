@@ -1,14 +1,21 @@
+<!--
+ * @Author: echo-mz
+ * @Date: 2021-08-27 17:52:56
+ * @LastEditTime: 2021-11-11 18:19:36
+ * @LastEditors: echo
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: /compile-vue/generate-modal-docs/README.md
+-->
 ## generate-docs
 为src所有文件组件生成文档说明。并按照src文档格式自动创建文件夹/文件
 
 ### 使用
 ``` 
-npm i generate-docs
+npm i generate-modal-docs
 
-or 
-
-yarn add generate-docs
 ```
+### 作为公共方法应用
+``` 
 
 ``` js
 
@@ -38,6 +45,20 @@ parseDocs(vueStr, {
     }
 }
 ```
+### 作为脚本，执行modal.js文件
+```
+
+``` js
+
+// packge.json中添加（正常情况）
+  "scripts": {
+    "dev": "node node_modules/generate-modal-docs/modal.js"
+  }
+// 可根据项目文件目录结构调整modal.js###########
+
+
+```
+
 
 ### 生成vue组件 md 示例
 

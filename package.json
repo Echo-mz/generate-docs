@@ -9,7 +9,7 @@
   },
   "homepage": "https://github.com/Echo-mz/generate-docs",
   "scripts": {
-    "dev": "node test_node/generate-docs/modal.js"
+    "dev": "node node_modules/generate-modal-docs/modal.js"
   },
   "keywords": [
     "template",
@@ -23,6 +23,7 @@
     "@babel/parser": "^7.14.8",
     "@babel/traverse": "^7.14.8",
     "@babel/types": "^7.14.8",
+    "generate-modal-docs": "^1.0.0",
     "generate-vue-docs": "^1.0.3",
     "vue-template-compiler": "^2.6.14"
   }
