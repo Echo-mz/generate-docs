@@ -1,8 +1,8 @@
 <!--
  * @Author: echo-mz
  * @Date: 2021-08-27 17:52:56
- * @LastEditTime: 2021-11-11 18:19:36
- * @LastEditors: echo
+ * @LastEditTime: 2021-11-11 22:35:21
+ * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: /compile-vue/generate-modal-docs/README.md
 -->
@@ -15,7 +15,6 @@ npm i generate-modal-docs
 
 ```
 ### 作为公共方法应用
-``` 
 
 ``` js
 
@@ -46,7 +45,6 @@ parseDocs(vueStr, {
 }
 ```
 ### 作为脚本，执行modal.js文件
-```
 
 ``` js
 
