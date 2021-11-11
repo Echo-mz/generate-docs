@@ -206,6 +206,6 @@ class RenderMd {
     }
 }
 
-module.exports = {
+exports = module.exports = {
     RenderMd
 }

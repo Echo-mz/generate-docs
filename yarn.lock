@@ -144,6 +144,17 @@
   "resolved" "https://registry.nlark.com/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz"
   "version" "1.0.5"
 
+"generate-vue-docs@^1.0.3":
+  "integrity" "sha512-izr9K2exGwbc9euFu/yroG/ASFhDGKr8GHZvfrMKX5cjx7mazm4Y4ibhQoachLBgNEGsIpIDbYHEeJqDctsVZg=="
+  "resolved" "https://registry.npmjs.org/generate-vue-docs/-/generate-vue-docs-1.0.3.tgz"
+  "version" "1.0.3"
+  dependencies:
+    "@babel/generator" "^7.14.8"
+    "@babel/parser" "^7.14.8"
+    "@babel/traverse" "^7.14.8"
+    "@babel/types" "^7.14.8"
+    "vue-template-compiler" "^2.6.14"
+
 "globals@^11.1.0":
   "integrity" "sha1-q4eVM4hooLq9hSV1gBjCp+uVxC4= sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA=="
   "resolved" "https://registry.nlark.com/globals/download/globals-11.12.0.tgz?cache=0&sync_timestamp=1625655787416&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fglobals%2Fdownload%2Fglobals-11.12.0.tgz"

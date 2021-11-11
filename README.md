@@ -11,7 +11,6 @@ yarn add generate-docs
 ```
 
 ``` js
-const { parseDocs } = require('generate-docs')
 
 // vueStr 组件内容,默认返回json文档
 parseDocs(vueStr) 
