@@ -12,7 +12,6 @@
 ### 使用
 ``` 
 npm i generate-modal-docs
-
 ```
 ### 作为公共方法应用
 
